@@ -1,0 +1,11 @@
+{
+  "id": "example-add-env-name-detector",
+  "base_ref": "REPLACE_WITH_SHA_IMMEDIATELY_BEFORE_THE_ORIGINAL_WORK_LANDED",
+  "prompt_file": "tasks/example-work-order.md",
+  "acceptance": {
+    "command": "python -m pytest tests/test_env_name_detector.py -q",
+    "timeout_sec": 300
+  },
+  "reversible_reviewed_by": "TODO",
+  "notes": "Extract acceptance.command from the ORIGINAL work order. Do not invent one: an agent that writes its own test is grading itself. Leave reversible_reviewed_by as TODO until a human confirms this task cannot message a person, publish, move money, or write to a live external system. Run `passk verify` before `passk run` - if acceptance passes at base_ref, the spec measures nothing."
+}
