@@ -176,6 +176,12 @@ Hence this.
 
 ---
 
+## Author
+
+[Oren Oved](https://orenoved.co.il/), founder of [OpticoAI](https://opticoai.co.il/) and [Gevurah](https://gevurah.ai/), AI Harness Engineer. [LinkedIn](https://www.linkedin.com/in/orenoved/).
+
+---
+
 ## License
 
 MIT. See [LICENSE](LICENSE).
